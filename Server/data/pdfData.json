@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "66975b8f351322f70dc74be7",
+    "name": "computer sceince",
+    "author": "2018",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348810069i/325779.jpg",
+    "pdfURL": "https://drive.google.com/uc?export=download&id=131NibjvY1-ODQaekIvWfz3sLyJBGrVLu",
+    "__v": 0
+  },
+  {
+    "_id": "6697734fdb8365e4dfad3d38",
+    "name": "pdf",
+    "author": "yaseer",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348810069i/325779.jpg",
+    "pdfURL": "https://drive.google.com/uc?export=download&id=131NibjvY1-ODQaekIvWfz3sLyJBGrVLu",
+    "__v": 0
+  },
+  {
+    "_id":"66b314548b011e16d08da838",
+    "name": "Data Science",
+    "author": "Russell Jurney",
+    "imageUrl": "https://www.jungle.lk/wp-content/uploads/2020/05/Python-Data-Science-Handbook.jpg",
+    "pdfURL": "https://drive.google.com/uc?export=download&id=1TcDry8ekIVhy1VhcXt_zBvQXxzB70sCH",
+    "__v": 0
+  }
+ 
+]
