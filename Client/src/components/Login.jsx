@@ -22,6 +22,8 @@ const handleSubmit = () => {
     } else if(res.data.login && res.data.role === 'student') {
       setRoleVar('student')
       navigate('/welcome')
+    } else if(res.data.message === "student not registered" || res.data.message === "admin not registered") {
+      alert('Username or Password is incorrect')
     }
     console.log(res)
   })
