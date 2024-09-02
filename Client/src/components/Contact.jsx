@@ -11,7 +11,7 @@ const Contact = () => {
           event.preventDefault();
           const formData = new FormData(event.target);
       
-          formData.append("access_key", import.meta.env.KEY_TWO);
+          formData.append("access_key","d8af8356-3e6a-405a-aea2-ef97c2929ff1");
       
           const object = Object.fromEntries(formData);
           const json = JSON.stringify(object);
@@ -47,10 +47,10 @@ const Contact = () => {
                         <img src={mail_icon} alt="" /> <p>codecrushes@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={call_icon} alt="" /> <p>085126372</p>
+                        <img src={call_icon} alt="" /> <p>0757332727</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" /> <p>CA,Sri Lanka</p>
+                        <img src={location_icon} alt="" /> <p>Rajarata University of Sri Lanka</p>
                     </div>
                 </div>
             </div>
