@@ -13,13 +13,13 @@ const Service = () => {
         <div className="services-list">
           <div className="service-item">
             <FontAwesomeIcon icon={faBook} size="3x" />
-            <h3>Online Book Sales</h3>
-            <p>Browse and purchase books from our extensive online catalog.</p>
+            <h3>Writing Assistance</h3>
+            <p>Guidance on structuring academic papers, writing essays, or preparing research proposals. This may include templates, guides, or tips</p>
           </div>
           <div className="service-item">
             <FontAwesomeIcon icon={faBookReader} size="3x" />
-            <h3>Book Rentals</h3>
-            <p>Rent books for a specified period at affordable rates.</p>
+            <h3>Research Assistance</h3>
+            <p> Students can request help with finding academic sources, databases, or research papers relevant to their study topics. This can include curated resources or links to external academic libraries</p>
           </div>
           <div className="service-item">
             <FontAwesomeIcon icon={faUserCircle} size="3x" />
@@ -28,8 +28,8 @@ const Service = () => {
           </div>
           <div className="service-item">
             <FontAwesomeIcon icon={faUserFriends} size="3x" />
-            <h3>Community Events</h3>
-            <p>Join our community events, including book readings and author signings.</p>
+            <h3>Research Guidance</h3>
+            <p> A step-by-step guide on how to conduct research, with links to databases or reference book downloads.</p>
           </div>
         </div>
         <Testimonials />
