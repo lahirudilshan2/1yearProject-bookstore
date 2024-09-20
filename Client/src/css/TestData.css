@@ -90,7 +90,7 @@ body {
 .download-link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #28a745;
+  background-color: #0056b3;
   color: white;
   text-decoration: none;
   border-radius: 30px;
@@ -99,7 +99,7 @@ body {
 }
 
 .download-link:hover {
-  background-color: #218838;
+  background-color: #063568;
   transform: translateY(-3px);
 }
 
