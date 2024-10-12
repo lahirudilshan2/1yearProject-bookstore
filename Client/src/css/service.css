@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 .services {
     padding: 40px;
-    background-color: #f9f9f9;
+    background-color: #301934;
     text-align: center;
   }
   
   .services h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #333;
+    color: white;
   }
   
   .services-list {
@@ -25,7 +25,7 @@
     max-width: 300px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
     transition: transform 0.3s;
   }
   
@@ -37,12 +37,12 @@
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #007bff;
+    color: black;
   }
   
   .service-item p {
     font-size: 1em;
-    color: #666;
+    color: #232222;
   }
   
   .testimonials, .contact-form {
@@ -50,9 +50,13 @@
   }
   
   .testimonials h2, .contact-form h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     color: #333;
+  }
+
+  .testimonials h2{
+    color: white;
   }
   
   .testimonial-item {
@@ -70,7 +74,7 @@
   
   .testimonial-item h4 {
     margin-top: 10px;
-    color: #007bff;
+    color: red;
   }
   
   .contact-form form {

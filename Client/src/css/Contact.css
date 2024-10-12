@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     padding: 50px 20px;
-    background: linear-gradient(to right, #f8cdda, #1c92d2);
+    background: linear-gradient(to right, #f8cdda, #301934);
     color: black;
     text-align: center;
     position: relative;
@@ -42,16 +42,16 @@
     animation: fadeIn 1.5s ease-in-out;
     border-radius: 10px;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(141, 30, 30, 0.1);
     backdrop-filter: blur(10px);
-    padding: 20px;
+    padding: 40px;
   }
   
   .contact-left, .contact-right {
     flex: 1;
-    padding: 20px;
+    padding: 30px;
     margin: 10px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(121, 93, 93, 0.463);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
@@ -59,19 +59,21 @@
   .contact-left h1 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #007bff;
+    color: #cbd2d8;
   }
   
   .contact-left p {
     font-size: 1.2em;
     margin-bottom: 20px;
-    color: #555;
+    color: #bcbbbb;
+    
   }
   
   .contact-details {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 35px;
   }
   
   .contact-detail {
@@ -94,7 +96,7 @@
   .contact-right label {
     font-size: 1em;
     margin-bottom: 5px;
-    color: #007bff;
+    color: #ebeef2;
   }
   
   .contact-right input,
@@ -102,18 +104,19 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #bda7a7;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-size: 1em;
-    color: #333;
+    color: white;
+    background-color: #18141431;
   }
   
   .contact-submit {
     padding: 10px 20px;
     border: none;
     border-radius: 25px;
-    background: linear-gradient(to right, #43cea2, #185a9d);
+    background: linear-gradient(to right, #65441934, #a04e41);
     color: #fff;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
@@ -122,7 +125,7 @@
   }
   
   .contact-submit:hover {
-    background: linear-gradient(to right, #185a9d, #43cea2);
+    background: linear-gradient(to right, #a04e41, #65441934);
     transform: scale(1.05);
   }
   

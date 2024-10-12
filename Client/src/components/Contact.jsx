@@ -36,10 +36,10 @@ const Contact = () => {
     <div id='contact' className='contact'>
         <div className="contact-title">
             <h1>Get in touch</h1>
-            <img src={theme_pattern} alt="" />
+            {/* <img src={theme_pattern} alt="" /> */}
         </div>
         <div className="contact-section">
-            <div className="centact-left">
+            <div className="contact-left">
                 <h1>Let's talk</h1>
                 <p>send your details for add as student to download all the reference books</p>
                 <div className="contact-details">
@@ -55,13 +55,13 @@ const Contact = () => {
                 </div>
             </div>
             <form onSubmit={onSubmit} className="contact-right">
-                <label htmlFor="">Your Name</label>
+                {<label htmlFor=""></label>}
                 <input type="text" name="name" id="" placeholder='Ender Your Name'/>
-                <label htmlFor="">Your Stream</label>
+                <label htmlFor=""></label>
                 <input type="text" name="Stream" id="" placeholder='Ender Your Stream'/>
-                <label htmlFor="">Your Email</label>
+                <label htmlFor=""> </label>
                 <input type="email" name="email" id="" placeholder='Ender Your Email'/>
-                <label htmlFor="">Write Your Message Here</label>
+                <label htmlFor=""></label>
                 <textarea name="message" rows="8" placeholder='Ender Your Message'></textarea>
                 <button type='submit'className='contact-submit'>Sumbit Now</button>
             </form>

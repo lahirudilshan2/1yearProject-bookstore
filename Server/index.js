@@ -34,6 +34,6 @@ app.get('/dashboard', async (req, res) => {
 })
 
 
-app.listen(process.env.PORT, () => {
-    console.log("Server is Running");
+app.listen(3001, () => {
+    console.log(`Server is Running ${process.env.PORT}`);
 })

@@ -10,7 +10,7 @@ const BookCard = ({book, role}) => {
         </div>
         {role === "admin" &&
           <div className="book-actions">
-          <button><Link to={`/book/${book._id}`} className='btn-link'>edit</Link></button>
+          <button><Link to={`/book/${x._id}`} className='btn-link'>edit</Link></button>
           <button><Link to={`/delete/${book._id}`} className='btn-link'>delete</Link></button>
           <button><Link to={`/download/${book._id}`} className='btn-link'>Open</Link></button>
       </div>}

@@ -3,6 +3,7 @@
 
 .book-list {
     display: flex;
+    background-color: rgb(74, 56, 56);
     justify-content: center;
     margin-top: 20px;
 }

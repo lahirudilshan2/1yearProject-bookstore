@@ -12,7 +12,7 @@ const Service = () => {
         <h2>Our Services</h2>
         <div className="services-list">
           <div className="service-item">
-            <FontAwesomeIcon icon={faBook} size="3x" />
+            <FontAwesomeIcon icon={faBook} size="2x" />
             <h3>Online Book Sales</h3>
             <p>Browse and purchase books from our extensive online catalog.</p>
           </div>
@@ -41,7 +41,7 @@ const Service = () => {
   const Testimonials = () => {
     return (
       <div className="testimonials">
-        <h2>What Our Customers Say</h2>
+        <h2>-What Our Customers Say-</h2>
         <div className="testimonial-item">
           <p>"Great selection of books and excellent customer service!"</p>
           <h4>- Jane Doe</h4>
