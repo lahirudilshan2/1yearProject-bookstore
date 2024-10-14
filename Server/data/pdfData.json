@@ -14,6 +14,22 @@
     "imageUrl": "https://www.jungle.lk/wp-content/uploads/2020/05/Python-Data-Science-Handbook.jpg",
     "pdfURL": "https://drive.google.com/uc?export=download&id=1TcDry8ekIVhy1VhcXt_zBvQXxzB70sCH",
     "__v": 0
+  },
+  {
+    "_id":"66b314548b011e16d08da839",
+    "name": "ENT",
+    "author": "Russell Jurney",
+    "imageUrl": "https://www.jungle.lk/wp-content/uploads/2020/05/Python-Data-Science-Handbook.jpg",
+    "pdfURL": "https://drive.google.com/uc?export=download&id=1TcDry8ekIVhy1VhcXt_zBvQXxzB70sCH",
+    "__v": 0
+  },
+  {
+    "_id":"66b314548b011e16d08da840",
+    "name": "Test",
+    "author": "Russell Jurney",
+    "imageUrl": "https://www.jungle.lk/wp-content/uploads/2020/05/Python-Data-Science-Handbook.jpg",
+    "pdfURL": "https://drive.google.com/uc?export=download&id=1TcDry8ekIVhy1VhcXt_zBvQXxzB70sCH",
+    "__v": 0
   }
  
 ]

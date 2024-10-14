@@ -1,54 +1,120 @@
 /* src/components/css/TestData.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* src/components/css/TestData.css */
+/* src/components/css/TestData.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
 .test-data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f4f4f9;
-  }
-  
-  .test-data-item {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 20px;
-    width: 80%;
-    max-width: 600px;
-    text-align: left;
-    transition: transform 0.3s;
-  }
-  
-  .test-data-item:hover {
-    transform: scale(1.02);
-  }
-  
-  .test-data-item h3 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.test-data:hover {
+  transform: translateY(-10px);
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.searchBar input[type="text"] {
+  width: 350px;
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 50px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.searchBar input[type="text"]:focus {
+  border-color: #007BFF;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.searchBar button {
+  padding: 12px 20px;
+  margin-left: 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.searchBar button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+.test-data-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.test-data-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.test-data-item h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.test-data-item p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.download-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-link:hover {
+  background-color: #063568;
+  transform: translateY(-3px);
+}
+
+.download-link svg {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .searchBar input[type="text"] {
+    width: 100%;
     margin-bottom: 10px;
-    color: #333;
   }
   
-  .test-data-item p {
-    margin-bottom: 15px;
-    color: #666;
+  .searchBar {
+    flex-direction: column;
   }
-  
-  .download-link {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-  
-  .download-link:hover {
-    background-color: #0056b3;
-  }
-  
-  .download-link svg {
-    margin-right: 5px;
-  }
-  
+}
