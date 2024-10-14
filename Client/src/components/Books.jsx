@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import BookCard from './BookCard'
-import '../css/Book.css'
+import '../css/Books.css'
 
 const Books = ({role}) => {
   const [books, setBooks] = useState([])
